@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UrbanStyle Colombia - Moda Urbana Premium</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&family=Playfair+Display:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <meta name="description"
+        content="UrbanStyle Colombia - Tienda de moda urbana premium con los mejores diseños streetwear inspirados en la cultura colombiana">
+    <meta name="keywords"
+        content="moda urbana colombia, streetwear bogota, ropa premium medellin, UrbanStyle, moda colombiana">
+    <link rel="icon" type="image/x-icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔥</text></svg>">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="Logo/Logo-Urban.png" alt="UrbanStyle Colombia" class="logo-img">
+                    <span class="colombia-flag">🇨🇴</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#products">Productos</a></li>
+                    <li><a href="#about">Nosotros</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+                <div class="nav-icons">
+                    <i class="fas fa-search"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loader">
+            <div class="loader-logo">UrbanStyle</div>
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Announcement Bar -->
+    <div class="announcement-bar">
+        <div class="announcement-content">
+            <i class="fas fa-fire"></i>
+            <span>¡NUEVA COLECCIÓN COLOMBIA DISPONIBLE! Envío gratis en compras superiores a $250.000 COP</span>
+            <i class="fas fa-times announcement-close"></i>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg-video">
+            <div class="video-overlay"></div>
+        </div>
+        <div class="hero-particles"></div>
+        <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+            <div class="hero-badge">
+                <i class="fas fa-crown"></i>
+                <span>Colección Colombia 2024</span>
+            </div>
+            <h1>Estilo Urbano<br><span class="highlight">Colombiano</span></h1>
+            <p>Descubre la última colección de moda urbana premium inspirada en la vibrante cultura colombiana. Calidad
+                excepcional, diseños únicos que celebran nuestra identidad.</p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number" data-count="15000">0</span>
+                    <span class="stat-label">Colombianos Satisfechos</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-count="800">0</span>
+                    <span class="stat-label">Diseños Únicos</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-count="32">0</span>
+                    <span class="stat-label">Departamentos</span>
+                </div>
+            </div>
+            <div class="hero-buttons">
+                <button class="btn-primary">
+                    <span>Explorar Colección</span>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+                <button class="btn-secondary">
+                    <i class="fas fa-play"></i>
+                    <span>Ver Video</span>
+                </button>
+            </div>
+        </div>
+        <div class="hero-image" data-aos="fade-left" data-aos-duration="1200">
+            <div class="hero-placeholder">
+                <i class="fas fa-tshirt"></i>
+            </div>
+            <div class="floating-elements">
+                <div class="floating-element" style="--delay: 0s">
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="floating-element" style="--delay: 1s">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <div class="floating-element" style="--delay: 2s">
+                    <i class="fas fa-fire"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brand Showcase -->
+    <section class="brand-showcase">
+        <div class="container">
+            <div class="brand-content" data-aos="fade-up">
+                <h3>Colaboramos con las mejores marcas y diseñadores colombianos</h3>
+                <div class="brand-logos">
+                    <div class="brand-logo">Nike</div>
+                    <div class="brand-logo">Adidas</div>
+                    <div class="brand-logo">Arturo Calle</div>
+                    <div class="brand-logo">Koaj</div>
+                    <div class="brand-logo">Studio F</div>
+                    <div class="brand-logo">Diseñadores CO</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">Nuestros Productos</h2>
+            <div class="product-categories">
+                <div class="category-card">
+                    <div class="category-icon colombia-colors">
+                        <i class="fas fa-tshirt"></i>
+                    </div>
+                    <h3>Camisetas Colombianas</h3>
+                    <p>Diseños únicos inspirados en nuestra cultura</p>
+                    <button class="btn-outline">Ver Más</button>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon colombia-colors">
+                        <i class="fas fa-vest"></i>
+                    </div>
+                    <h3>Hoodies Paisa</h3>
+                    <p>Comodidad y orgullo colombiano</p>
+                    <button class="btn-outline">Ver Más</button>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon colombia-colors">
+                        <i class="fas fa-shoe-prints"></i>
+                    </div>
+                    <h3>Calzado Urbano</h3>
+                    <p>Sneakers con alma colombiana</p>
+                    <button class="btn-outline">Ver Más</button>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon colombia-colors">
+                        <i class="fas fa-hat-cowboy"></i>
+                    </div>
+                    <h3>Accesorios CO</h3>
+                    <p>Completa tu look con estilo colombiano</p>
+                    <button class="btn-outline">Ver Más</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Filter -->
+    <section class="product-filter">
+        <div class="container">
+            <div class="filter-tabs" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="trending">Tendencias</button>
+                <button class="filter-btn" data-filter="new">Nuevos</button>
+                <button class="filter-btn" data-filter="sale">Ofertas</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-products">
+        <div class="container">
+            <h2 class="section-title">Productos Destacados</h2>
+            <div class="products-grid">
+                <!-- Ropa para Mujer -->
+                <div class="product-card" data-category="trending">
+                    <div class="product-image">
+                        <div class="product-badges">
+                            <span class="badge trending">Tendencia</span>
+                        </div>
+                        <img src="Fotos-Ropa/RopaMujer1.jfif" alt="Conjunto Urbano Mujer" class="product-img">
+                        <div class="product-overlay">
+                            <button class="btn-quick-view">Vista Rápida</button>
+                        </div>
+                        <button class="btn-wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Ropa Mujer</div>
+                        <h3>Conjunto Urbano "Bogotá Style"</h3>
+                        <div class="price-container">
+                            <p class="price">$149.900 COP</p>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span class="rating-count">(127)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="new">
+                    <div class="product-image">
+                        <div class="product-badges">
+                            <span class="badge new">Nuevo</span>
+                        </div>
+                        <img src="Fotos-Ropa/RopaHombre1.jfif" alt="Outfit Hombre Urbano" class="product-img">
+                        <div class="product-overlay">
+                            <button class="btn-quick-view">Vista Rápida</button>
+                        </div>
+                        <button class="btn-wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Ropa Hombre</div>
+                        <h3>Outfit "Medellín Eterna Primavera"</h3>
+                        <div class="price-container">
+                            <p class="price">$189.900 COP</p>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span class="rating-count">(89)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="sale">
+                    <div class="product-image">
+                        <div class="product-badges">
+                            <span class="badge sale">Oferta</span>
+                            <span class="badge discount">-25%</span>
+                        </div>
+                        <img src="Fotos-Ropa/RopaUnisex1.jfif" alt="Ropa Unisex Urbana" class="product-img">
+                        <div class="product-overlay">
+                            <button class="btn-quick-view">Vista Rápida</button>
+                        </div>
+                        <button class="btn-wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Ropa Unisex</div>
+                        <h3>Conjunto Unisex "Cartagena Sunset"</h3>
+                        <div class="price-container">
+                            <p class="price">$199.900 COP</p>
+                            <p class="original-price">$269.900 COP</p>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span class="rating-count">(203)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Productos adicionales con las demás imágenes -->
+                <div class="product-card" data-category="trending">
+                    <div class="product-image">
+                        <div class="product-badges">
+                            <span class="badge bestseller">Bestseller</span>
+                        </div>
+                        <img src="Fotos-Ropa/RopaMujer2.jfif" alt="Look Femenino Urbano" class="product-img">
+                        <div class="product-overlay">
+                            <button class="btn-quick-view">Vista Rápida</button>
+                        </div>
+                        <button class="btn-wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Ropa Mujer</div>
+                        <h3>Look Femenino "Cali Salsa"</h3>
+                        <div class="price-container">
+                            <p class="price">$129.900 COP</p>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span class="rating-count">(156)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="new">
+                    <div class="product-image">
+                        <div class="product-badges">
+                            <span class="badge new">Nuevo</span>
+                        </div>
+                        <img src="Fotos-Ropa/RopaHombre2.jfif" alt="Estilo Masculino Urbano" class="product-img">
+                        <div class="product-overlay">
+                            <button class="btn-quick-view">Vista Rápida</button>
+                        </div>
+                        <button class="btn-wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Ropa Hombre</div>
+                        <h3>Estilo Masculino "Paisa Power"</h3>
+                        <div class="price-container">
+                            <p class="price">$169.900 COP</p>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span class="rating-count">(94)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="trending">
+                    <div class="product-image">
+                        <div class="product-badges">
+                            <span class="badge trending">Tendencia</span>
+                        </div>
+                        <img src="Fotos-Ropa/RopaUnisex2.jfif" alt="Outfit Unisex Moderno" class="product-img">
+                        <div class="product-overlay">
+                            <button class="btn-quick-view">Vista Rápida</button>
+                        </div>
+                        <button class="btn-wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Ropa Unisex</div>
+                        <h3>Outfit Unisex "Colombia Vibe"</h3>
+                        <div class="price-container">
+                            <p class="price">$179.900 COP</p>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span class="rating-count">(178)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Más productos con las imágenes restantes -->
+                <div class="product-card" data-category="new">
+                    <div class="product-image">
+                        <div class="product-badges">
+                            <span class="badge new">Nuevo</span>
+                        </div>
+                        <img src="Fotos-Ropa/RopaMujer3.jfif" alt="Estilo Femenino Elegante" class="product-img">
+                        <div class="product-overlay">
+                            <button class="btn-quick-view">Vista Rápida</button>
+                        </div>
+                        <button class="btn-wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Ropa Mujer</div>
+                        <h3>Estilo Elegante "Barranquilla Breeze"</h3>
+                        <div class="price-container">
+                            <p class="price">$139.900 COP</p>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span class="rating-count">(142)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="trending">
+                    <div class="product-image">
+                        <div class="product-badges">
+                            <span class="badge trending">Tendencia</span>
+                        </div>
+                        <img src="Fotos-Ropa/RopaHombre3.jfif" alt="Look Masculino Casual" class="product-img">
+                        <div class="product-overlay">
+                            <button class="btn-quick-view">Vista Rápida</button>
+                        </div>
+                        <button class="btn-wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Ropa Hombre</div>
+                        <h3>Look Casual "Santander Style"</h3>
+                        <div class="price-container">
+                            <p class="price">$159.900 COP</p>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span class="rating-count">(87)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="sale">
+                    <div class="product-image">
+                        <div class="product-badges">
+                            <span class="badge sale">Oferta</span>
+                            <span class="badge discount">-30%</span>
+                        </div>
+                        <img src="Fotos-Ropa/RopaUnisex3.jfif" alt="Conjunto Unisex Deportivo" class="product-img">
+                        <div class="product-overlay">
+                            <button class="btn-quick-view">Vista Rápida</button>
+                        </div>
+                        <button class="btn-wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Ropa Unisex</div>
+                        <h3>Conjunto Deportivo "Andes Power"</h3>
+                        <div class="price-container">
+                            <p class="price">$174.900 COP</p>
+                            <p class="original-price">$249.900 COP</p>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span class="rating-count">(198)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="trending">
+                    <div class="product-image">
+                        <div class="product-badges">
+                            <span class="badge bestseller">Bestseller</span>
+                        </div>
+                        <img src="Fotos-Ropa/RopaMujer4.jfif" alt="Outfit Femenino Moderno" class="product-img">
+                        <div class="product-overlay">
+                            <button class="btn-quick-view">Vista Rápida</button>
+                        </div>
+                        <button class="btn-wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Ropa Mujer</div>
+                        <h3>Outfit Moderno "Pereira Chic"</h3>
+                        <div class="price-container">
+                            <p class="price">$164.900 COP</p>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span class="rating-count">(234)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="new">
+                    <div class="product-image">
+                        <div class="product-badges">
+                            <span class="badge new">Nuevo</span>
+                        </div>
+                        <img src="Fotos-Ropa/RopaHombre4.jfif" alt="Estilo Masculino Premium" class="product-img">
+                        <div class="product-overlay">
+                            <button class="btn-quick-view">Vista Rápida</button>
+                        </div>
+                        <button class="btn-wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Ropa Hombre</div>
+                        <h3>Estilo Premium "Valle del Cauca"</h3>
+                        <div class="price-container">
+                            <p class="price">$199.900 COP</p>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span class="rating-count">(76)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="trending">
+                    <div class="product-image">
+                        <div class="product-badges">
+                            <span class="badge trending">Tendencia</span>
+                        </div>
+                        <img src="Fotos-Ropa/RopaUnisex4.jfif" alt="Look Unisex Urbano" class="product-img">
+                        <div class="product-overlay">
+                            <button class="btn-quick-view">Vista Rápida</button>
+                        </div>
+                        <button class="btn-wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Ropa Unisex</div>
+                        <h3>Look Urbano "Amazonas Wild"</h3>
+                        <div class="price-container">
+                            <p class="price">$184.900 COP</p>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span class="rating-count">(167)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="sale">
+                    <div class="product-image">
+                        <div class="product-badges">
+                            <span class="badge sale">Oferta</span>
+                            <span class="badge discount">-20%</span>
+                        </div>
+                        <img src="Fotos-Ropa/RopaHombre5.jfif" alt="Conjunto Masculino Deportivo" class="product-img">
+                        <div class="product-overlay">
+                            <button class="btn-quick-view">Vista Rápida</button>
+                        </div>
+                        <button class="btn-wishlist">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Ropa Hombre</div>
+                        <h3>Conjunto Deportivo "Huila Active"</h3>
+                        <div class="price-container">
+                            <p class="price">$159.900 COP</p>
+                            <p class="original-price">$199.900 COP</p>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span class="rating-count">(112)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Sobre UrbanStyle Colombia</h2>
+                    <p>Somos una marca de moda urbana 100% colombiana que combina estilo, calidad y autenticidad. Desde
+                        2020, hemos estado redefiniendo la moda streetwear con diseños únicos que reflejan la vibrante
+                        cultura urbana colombiana, desde las calles de Bogotá hasta las montañas de Medellín.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-award"></i>
+                            <div>
+                                <h4>Calidad Premium</h4>
+                                <p>Materiales colombianos de la más alta calidad</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-shipping-fast"></i>
+                            <div>
+                                <h4>Envío Nacional</h4>
+                                <p>Entrega en toda Colombia 2-5 días</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-heart"></i>
+                            <div>
+                                <h4>Hecho con Amor</h4>
+                                <p>Diseñado y producido en Colombia</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-placeholder">
+                        <i class="fas fa-store"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Lo que dicen nuestros clientes</h2>
+            <div class="testimonials-slider" data-aos="fade-up" data-aos-delay="200">
+                <div class="testimonial-card active">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"La calidad de UrbanStyle Colombia es excepcional. Cada prenda que he comprado supera mis
+                            expectativas. Me encanta que celebren nuestra cultura colombiana con tanto estilo."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>María González</h4>
+                                <span>Bogotá, Colombia</span>
+                            </div>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"El servicio al cliente es increíble y la entrega súper rápida en toda Colombia. UrbanStyle
+                            se ha convertido en mi tienda favorita para moda urbana. ¡Viva Colombia!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Carlos Rodríguez</h4>
+                                <span>Medellín, Colombia</span>
+                            </div>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"Diseños únicos que celebran nuestra identidad colombiana. La atención al detalle en cada
+                            prenda es impresionante. Me siento orgullosa de usar UrbanStyle."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Ana Martínez</h4>
+                                <span>Cali, Colombia</span>
+                            </div>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="testimonial-prev"><i class="fas fa-chevron-left"></i></button>
+                <div class="testimonial-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <button class="testimonial-next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collection Showcase -->
+    <section class="collection-showcase">
+        <div class="container">
+            <div class="collection-grid">
+                <div class="collection-item large colombia-collection" data-aos="fade-right">
+                    <div class="collection-content">
+                        <h3>Colección "Tierra Querida"</h3>
+                        <p>Descubre los últimos diseños inspirados en la belleza de Colombia</p>
+                        <button class="btn-outline">Explorar</button>
+                    </div>
+                    <div class="collection-image">
+                        <div class="collection-placeholder">
+                            <i class="fas fa-mountain"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="collection-item paisa-collection" data-aos="fade-up" data-aos-delay="200">
+                    <div class="collection-content">
+                        <h4>Línea Paisa</h4>
+                        <p>Orgullo antioqueño en cada diseño</p>
+                        <button class="btn-text">Ver más</button>
+                    </div>
+                </div>
+                <div class="collection-item caribe-collection" data-aos="fade-up" data-aos-delay="400">
+                    <div class="collection-content">
+                        <h4>Caribe Urbano</h4>
+                        <p>El sabor costeño en streetwear</p>
+                        <button class="btn-text">Ver más</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instagram Feed -->
+    <section class="instagram-feed">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Síguenos en Instagram</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">@urban.styl_e</p>
+            <div class="instagram-grid" data-aos="fade-up" data-aos-delay="200">
+                <div class="instagram-post" onclick="window.open('https://www.instagram.com/urban.styl_e/', '_blank')">
+                    <img src="Fotos-Ropa/RopaMujer1.jfif" alt="Instagram Post - Outfit Femenino" class="instagram-img">
+                    <div class="post-overlay">
+                        <div class="post-stats">
+                            <span><i class="fas fa-heart"></i> 1.2k</span>
+                            <span><i class="fas fa-comment"></i> 89</span>
+                        </div>
+                        <div class="post-caption">
+                            <p>"Nuevo look urbano 🔥 #UrbanStyle #Colombia"</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="instagram-post" onclick="window.open('https://www.instagram.com/urban.styl_e/', '_blank')">
+                    <img src="Fotos-Ropa/RopaHombre1.jfif" alt="Instagram Post - Outfit Masculino"
+                        class="instagram-img">
+                    <div class="post-overlay">
+                        <div class="post-stats">
+                            <span><i class="fas fa-heart"></i> 2.1k</span>
+                            <span><i class="fas fa-comment"></i> 156</span>
+                        </div>
+                        <div class="post-caption">
+                            <p>"Estilo masculino que marca la diferencia 💪 #MenStyle"</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="instagram-post" onclick="window.open('https://www.instagram.com/urban.styl_e/', '_blank')">
+                    <img src="Fotos-Ropa/RopaUnisex1.jfif" alt="Instagram Post - Ropa Unisex" class="instagram-img">
+                    <div class="post-overlay">
+                        <div class="post-stats">
+                            <span><i class="fas fa-heart"></i> 987</span>
+                            <span><i class="fas fa-comment"></i> 67</span>
+                        </div>
+                        <div class="post-caption">
+                            <p>"Para todos los estilos 🌟 #Unisex #UrbanVibe"</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="instagram-post" onclick="window.open('https://www.instagram.com/urban.styl_e/', '_blank')">
+                    <img src="Fotos-Ropa/RopaMujer2.jfif" alt="Instagram Post - Look Femenino" class="instagram-img">
+                    <div class="post-overlay">
+                        <div class="post-stats">
+                            <span><i class="fas fa-heart"></i> 1.8k</span>
+                            <span><i class="fas fa-comment"></i> 234</span>
+                        </div>
+                        <div class="post-caption">
+                            <p>"Elegancia urbana colombiana 🇨🇴 #WomenStyle"</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="instagram-post" onclick="window.open('https://www.instagram.com/urban.styl_e/', '_blank')">
+                    <img src="Fotos-Ropa/RopaHombre2.jfif" alt="Instagram Post - Estilo Masculino"
+                        class="instagram-img">
+                    <div class="post-overlay">
+                        <div class="post-stats">
+                            <span><i class="fas fa-heart"></i> 3.2k</span>
+                            <span><i class="fas fa-comment"></i> 189</span>
+                        </div>
+                        <div class="post-caption">
+                            <p>"Actitud y estilo en cada prenda 🔥 #StreetWear"</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="instagram-post" onclick="window.open('https://www.instagram.com/urban.styl_e/', '_blank')">
+                    <img src="Fotos-Ropa/RopaUnisex2.jfif" alt="Instagram Post - Outfit Unisex" class="instagram-img">
+                    <div class="post-overlay">
+                        <div class="post-stats">
+                            <span><i class="fas fa-heart"></i> 1.5k</span>
+                            <span><i class="fas fa-comment"></i> 98</span>
+                        </div>
+                        <div class="post-caption">
+                            <p>"Comodidad y estilo sin límites 💫 #Fashion"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="instagram-cta">
+                <a href="https://www.instagram.com/urban.styl_e/" target="_blank" class="btn-instagram">
+                    <i class="fab fa-instagram"></i>
+                    <span>Síguenos en Instagram</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter CTA -->
+    <section class="newsletter-cta">
+        <div class="container">
+            <div class="newsletter-content" data-aos="fade-up">
+                <div class="newsletter-text">
+                    <h2>¡No te pierdas nuestras ofertas exclusivas!</h2>
+                    <p>Suscríbete a nuestro newsletter y recibe un 15% de descuento en tu primera compra</p>
+                </div>
+                <div class="newsletter-form-large">
+                    <input type="email" placeholder="Ingresa tu email">
+                    <button class="btn-primary">Suscribirse Ahora</button>
+                </div>
+                <div class="newsletter-benefits">
+                    <div class="benefit">
+                        <i class="fas fa-gift"></i>
+                        <span>Ofertas exclusivas</span>
+                    </div>
+                    <div class="benefit">
+                        <i class="fas fa-bell"></i>
+                        <span>Nuevos lanzamientos</span>
+                    </div>
+                    <div class="benefit">
+                        <i class="fas fa-star"></i>
+                        <span>Contenido premium</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contáctanos</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Dirección</h4>
+                            <p>Carrera 13 #85-32, Zona Rosa, Bogotá</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Teléfono</h4>
+                            <p>+57 (1) 234-5678</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>hola@urbanstylecolombia.com</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Nombre" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Mensaje" rows="5" required></textarea>
+                    <button type="submit" class="btn-primary">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>UrbanStyle Colombia 🇨🇴</h3>
+                    <p>Redefiniendo la moda urbana con estilo, autenticidad y orgullo colombiano.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#home">Inicio</a></li>
+                        <li><a href="#products">Productos</a></li>
+                        <li><a href="#about">Nosotros</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Categorías</h4>
+                    <ul>
+                        <li><a href="#">Camisetas</a></li>
+                        <li><a href="#">Hoodies</a></li>
+                        <li><a href="#">Calzado</a></li>
+                        <li><a href="#">Accesorios</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Suscríbete para recibir ofertas exclusivas y noticias de Colombia</p>
+                    <div class="newsletter">
+                        <input type="email" placeholder="Tu email">
+                        <button class="btn-primary">Suscribir</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 UrbanStyle Colombia. Todos los derechos reservados. Hecho con ❤️ en Colombia.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
