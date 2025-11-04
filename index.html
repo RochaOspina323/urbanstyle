@@ -96,13 +96,15 @@
                 </div>
             </div>
             <div class="hero-buttons">
-                <button class="btn-primary">
+                <button class="btn-primary"
+                    onclick="document.getElementById('products').scrollIntoView({behavior: 'smooth'})">
                     <span>Explorar Colección</span>
                     <i class="fas fa-arrow-right"></i>
                 </button>
-                <button class="btn-secondary">
-                    <i class="fas fa-play"></i>
-                    <span>Ver Video</span>
+                <button class="btn-secondary"
+                    onclick="window.open('https://www.instagram.com/urban.styl_e/', '_blank')">
+                    <i class="fab fa-instagram"></i>
+                    <span>Ver Instagram</span>
                 </button>
             </div>
         </div>
@@ -152,7 +154,9 @@
                     </div>
                     <h3>Camisetas Colombianas</h3>
                     <p>Diseños únicos inspirados en nuestra cultura</p>
-                    <button class="btn-outline">Ver Más</button>
+                    <button class="btn-outline"
+                        onclick="document.querySelector('.featured-products').scrollIntoView({behavior: 'smooth'})">Ver
+                        Más</button>
                 </div>
                 <div class="category-card">
                     <div class="category-icon colombia-colors">
@@ -160,7 +164,9 @@
                     </div>
                     <h3>Hoodies Paisa</h3>
                     <p>Comodidad y orgullo colombiano</p>
-                    <button class="btn-outline">Ver Más</button>
+                    <button class="btn-outline"
+                        onclick="document.querySelector('.featured-products').scrollIntoView({behavior: 'smooth'})">Ver
+                        Más</button>
                 </div>
                 <div class="category-card">
                     <div class="category-icon colombia-colors">
@@ -168,7 +174,9 @@
                     </div>
                     <h3>Calzado Urbano</h3>
                     <p>Sneakers con alma colombiana</p>
-                    <button class="btn-outline">Ver Más</button>
+                    <button class="btn-outline"
+                        onclick="document.querySelector('.featured-products').scrollIntoView({behavior: 'smooth'})">Ver
+                        Más</button>
                 </div>
                 <div class="category-card">
                     <div class="category-icon colombia-colors">
@@ -176,7 +184,9 @@
                     </div>
                     <h3>Accesorios CO</h3>
                     <p>Completa tu look con estilo colombiano</p>
-                    <button class="btn-outline">Ver Más</button>
+                    <button class="btn-outline"
+                        onclick="document.querySelector('.featured-products').scrollIntoView({behavior: 'smooth'})">Ver
+                        Más</button>
                 </div>
             </div>
         </div>
@@ -734,7 +744,8 @@
                     <div class="collection-content">
                         <h3>Colección "Tierra Querida"</h3>
                         <p>Descubre los últimos diseños inspirados en la belleza de Colombia</p>
-                        <button class="btn-outline">Explorar</button>
+                        <button class="btn-outline"
+                            onclick="window.open('https://www.instagram.com/urban.styl_e/', '_blank')">Explorar</button>
                     </div>
                     <div class="collection-image">
                         <div class="collection-placeholder">
@@ -858,7 +869,7 @@
                 </div>
                 <div class="newsletter-form-large">
                     <input type="email" placeholder="Ingresa tu email">
-                    <button class="btn-primary">Suscribirse Ahora</button>
+                    <button class="btn-primary" onclick="subscribeNewsletter()">Suscribirse Ahora</button>
                 </div>
                 <div class="newsletter-benefits">
                     <div class="benefit">
@@ -910,7 +921,7 @@
                     <input type="text" placeholder="Nombre" required>
                     <input type="email" placeholder="Email" required>
                     <textarea placeholder="Mensaje" rows="5" required></textarea>
-                    <button type="submit" class="btn-primary">Enviar Mensaje</button>
+                    <button type="submit" class="btn-primary" onclick="sendContactForm(event)">Enviar Mensaje</button>
                 </form>
             </div>
         </div>
@@ -924,10 +935,9 @@
                     <h3>UrbanStyle Colombia 🇨🇴</h3>
                     <p>Redefiniendo la moda urbana con estilo, autenticidad y orgullo colombiano.</p>
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/urban.styl_e/" target="_blank" title="Síguenos en Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
                     </div>
                 </div>
                 <div class="footer-section">
